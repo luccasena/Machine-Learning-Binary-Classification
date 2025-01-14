@@ -3,9 +3,13 @@
 Nesse projeto, me dediquei a criar um algoritmo de Machine Learning capaz de classificar registros que possuam uma renda superior ou menor igual a U$50.000 por ano. No entanto, foi utilizado uma base de dados encontrado na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994. Contudo, para a realização desse projeto precisei realizar os seguites passos:
 
 **1. Análise de Dados:** Entender como os dados estão distribuídos é essencial para que sejam bem tratados para os modelos.
+
 **2. Tratamento dos Dados:** É de suma importância tratar os dados para que o aprendizado de máquina seja realizado.
+
 **3. Treinamento dos Dados:** Neste ponto, os algoritmos irão ser treinados pelos dados tratados.
+
 **4. Desempenho do Algoritmo:** Aqui, irá ser realizado uma avaliação com o objetivo de medir a capacidade de aprendizado de cada algoritmo.
+
 **5. Testes:** Para evitar problemas de overfitting, será realizado mais uma vez testes com o propósito de medir o Desempenho dos algoritmos e determinar qual foi aquele que teve o melhor desempenho.
 
 Essa base de dados possui **32561 registros** com **14 atributos previsores** e **1 classe**. Logo abaixo será exposto cada uma delas:
