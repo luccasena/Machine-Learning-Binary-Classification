@@ -1,0 +1,9 @@
+# Ignorar a pasta do ambiente virtual
+venv/
+estatistica.py
+
+# Ignorar arquivos gerados pelo python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
