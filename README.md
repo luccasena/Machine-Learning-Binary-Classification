@@ -34,8 +34,10 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
 
 ### Como ter acesso ao projeto?
 
-1. Clique no direcionamento abaixo, recomendado para aqueles que não desejam baixar o projeto no próprio sistema:
+1. Clique no direcionamento abaixo: recomendado para aqueles que não desejam baixar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
 
 <a href="1data_analyses.ipynb">Clique aqui</a>
 
-2. 
+- Observação: Certifique se a opção "Preview" esteja habilitada para um melhor aproveitamento do documento.
+<img src="images/1guidelines.png" alt=""></img>
+
