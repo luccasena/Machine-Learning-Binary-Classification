@@ -1,4 +1,4 @@
-## Income Prediction - Dataset Census
+## Income Prediction 💵 - Dataset Census 
 
 Nesse projeto, me dediquei a criar um algoritmo de Machine Learning capaz de classificar registros que possuam uma renda superior ou menor igual a U$50.000 por ano. No entanto, foi utilizado uma base de dados encontrado na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994. Contudo, para a realização desse projeto precisei realizar os seguites passos:
 
@@ -35,9 +35,14 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
 ### Como ter acesso ao projeto?
 
 1. Clique no direcionamento abaixo: recomendado para aqueles que não desejam baixar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
+<p align="center">
+  <a href="1data_analyses.ipynb">
+    Clique aqui
+  </a>
+</p>
 
-<a href="1data_analyses.ipynb">Clique aqui</a>
 
 - Observação: Certifique se a opção "Preview" esteja habilitada para um melhor aproveitamento do documento.
+  
 <img src="images/1guidelines.png" alt=""></img>
 
