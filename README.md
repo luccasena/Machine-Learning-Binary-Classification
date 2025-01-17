@@ -38,7 +38,7 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
 
 ### Como ter acesso ao projeto?
 
-1. Clique no direcionamento abaixo: recomendado para aqueles que não desejam baixar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
+**1. Clique no direcionamento abaixo**: recomendado para aqueles que não desejam baixar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
 <p align="center">
   <a href="1data_analyses.ipynb">
     Clique aqui
@@ -50,3 +50,38 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
   
 <img src="images/1guidelines.png" alt=""></img>
 
+#### **2. Clonando no Terminal**: 
+Recomendado para aqueles que desejam rodar o projeto no próprio sistema.
+
+- **Avisos**: 
+  - Para esse projeto, foi utilizado um conjunto de bibliotecas que armazenandos na pasta do ambiente virtual se iguala a um tamanho aproximado de **800Mb**.
+  - A versão do python utilizada no projeto é a 3.12.7
+  - O projeto foi realizado no Windows.
+
+
+No terminal, digite esse comando para clonar o repositório:
+
+```bash 
+git clone https://github.com/luccasena/Machine-Learning-Binary-Classification.git
+```
+
+Na pasta do projeto, digite esse comando para a criação do ambiente virtual:
+
+```bash 
+py -m venv venv
+```
+
+Na pasta do projeto, digite esse comando para a ativação do ambiente virtual:
+
+```bash 
+venv/Scripts/activate
+```
+
+Na pasta do projeto, digite esse comando para a instalação de todas as dependências do projeto:
+
+
+```bash 
+pip install -r requirements.txt
+```
+
+Seguindo todos esses procedimentos, você irá conseguir ter acesso e executar o projeto na sua máquina.
