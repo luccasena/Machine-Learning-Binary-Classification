@@ -1,4 +1,4 @@
-## Income Prediction 💵 - Dataset Census 
+# Income Prediction 💵 - Dataset Census 
 
 Nesse projeto, me dediquei a criar um algoritmo de Machine Learning capaz de classificar registros que possuam uma renda superior ou menor igual a U$50.000 por ano. No entanto, foi utilizado uma base de dados encontrado na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994. Contudo, para a realização desse projeto precisei realizar os seguites passos:
 
@@ -14,11 +14,11 @@ Nesse projeto, me dediquei a criar um algoritmo de Machine Learning capaz de cla
 
 Essa base de dados possui **32561 registros** com **14 atributos previsores** e **1 classe**. Logo abaixo será exposto cada uma delas:
 
-### Classe:
+## Classe:
 
 - income: >50K, <=50K.
 
-### Atributos Previsores:
+## Atributos Previsores:
 
 - age : continuous.
 - workclass : Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
@@ -34,29 +34,33 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
 - capital-loss: continuous.
 - hours-per-week: continuous.
 - native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
+<br>
 
 
-### Como ter acesso ao projeto?
+# Como ter acesso ao projeto?
 
-**1. Clique no direcionamento abaixo**: recomendado para aqueles que não desejam baixar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
+## **1. Clique no direcionamento abaixo**:
+Recomendado para aqueles que não desejam instalar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
+
 <p align="center">
   <a href="1data_analyses.ipynb">
     Clique aqui
   </a>
 </p>
 
-
 - Observação: Certifique se a opção "Preview" esteja habilitada para um melhor aproveitamento do documento.
   
-<img src="images/1guidelines.png" alt=""></img>
+<img src="images/1guidelines.png" alt=""></img> 
+<br>
 
-#### **2. Clonando no Terminal**: 
+## **2. Clonando no Terminal**: 
 Recomendado para aqueles que desejam rodar o projeto no próprio sistema.
 
 - **Avisos**: 
-  - Para esse projeto, foi utilizado um conjunto de bibliotecas que armazenandos na pasta do ambiente virtual se iguala a um tamanho aproximado de **800Mb**.
+  - Para esse projeto, foi utilizado um conjunto de bibliotecas que armazenandos na pasta do ambiente virtual se iguala a um tamanho aproximado de **800Mb**, caso deseje ter conhecimento das bibliotecas utlizadas, elas estarão armazenadas no arquivo **requirements.txt**.
   - A versão do python utilizada no projeto é a 3.12.7
   - O projeto foi realizado no Windows.
+
 
 
 No terminal, digite esse comando para clonar o repositório:
@@ -65,23 +69,23 @@ No terminal, digite esse comando para clonar o repositório:
 git clone https://github.com/luccasena/Machine-Learning-Binary-Classification.git
 ```
 
-Na pasta do projeto, digite esse comando para a criação do ambiente virtual:
+No diretório do projeto, abra o terminal e digite esse comando para a criação do ambiente virtual:
+- **Observação: Esse comando só pode ser executado se o diretório do projeto estiver aberto na sua IDE.**
 
 ```bash 
 py -m venv venv
 ```
 
-Na pasta do projeto, digite esse comando para a ativação do ambiente virtual:
+Ainda no terminal, digite esse comando para a ativação do ambiente virtual:
 
 ```bash 
 venv/Scripts/activate
 ```
 
-Na pasta do projeto, digite esse comando para a instalação de todas as dependências do projeto:
+No terminal, digite esse comando para a instalação de todas as dependências do projeto:
 
 
 ```bash 
 pip install -r requirements.txt
 ```
 
-Seguindo todos esses procedimentos, você irá conseguir ter acesso e executar o projeto na sua máquina.
