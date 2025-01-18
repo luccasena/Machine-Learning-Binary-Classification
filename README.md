@@ -1,18 +1,20 @@
 # Income Prediction 💵 - Dataset Census 
 
-Nesse projeto, me dediquei a criar um algoritmo de Machine Learning capaz de classificar registros que possuam uma renda superior ou menor igual a U$50.000 por ano. No entanto, foi utilizado uma base de dados encontrado na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994. Contudo, para a realização desse projeto precisei realizar os seguites passos:
+Este projeto desenvolve um algoritmo de Machine Learning para classificar registros de renda em duas categorias: superior a U$50.000 e menor ou igual a U$50.000 anuais. A base de dados foi encontrada na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994, contendo **32561 registros** com **14 atributos previsores** e **1 classe**.
 
-**1. Análise de Dados:** Entender como os dados estão distribuídos é essencial para que sejam bem tratados para os modelos.
+## Etapas do Projeto
 
-**2. Tratamento dos Dados:** É de suma importância tratar os dados para que o aprendizado de máquina seja realizado.
+**1. Análise de Dados:** Entender como os dados estão distribuídos é essencial para identificação de possíveis problemas.
 
-**3. Treinamento dos Dados:** Neste ponto, os algoritmos irão ser treinados pelos dados tratados.
+**2. Tratamento dos Dados:** Aplicação de técnicas para limpar e transformar os dados, garantindo melhor desempenho dos modelos.
 
-**4. Desempenho do Algoritmo:** Aqui, irá ser realizado uma avaliação com o objetivo de medir a capacidade de aprendizado de cada algoritmo.
+**3. Treinamento dos Dados:** Treinamento dos modelos de Machine Learning com os dados tratados.
 
-**5. Testes:** Para evitar problemas de overfitting, será realizado mais uma vez testes com o propósito de medir o Desempenho dos algoritmos e determinar qual foi aquele que teve o melhor desempenho.
+**4. Avaliação de Desempenho:** Será realizado uma avaliação com o objetivo de medir a capacidade de aprendizado de cada algoritmo.
 
-Essa base de dados possui **32561 registros** com **14 atributos previsores** e **1 classe**. Logo abaixo será exposto cada uma delas:
+**5. Testes:** Para evitar problemas de overfitting, será realizado mais uma vez testes com o propósito de medir o desempenho do melhor algoritmo.
+
+# Estrutura do Dataset
 
 ## Classe:
 
@@ -39,8 +41,8 @@ Essa base de dados possui **32561 registros** com **14 atributos previsores** e 
 
 # Como ter acesso ao projeto?
 
-## **1. Clique no direcionamento abaixo**:
-Recomendado para aqueles que não desejam instalar o projeto no próprio sistema. Lembrando que neste modo de acesso você será apenas direcionado para o arquivo no repositório.
+## **1. Acesso direto**:
+Para visualizar o notebook no repositório sem instalar o projeto, clique no link abaixo:
 
 <p align="center">
   <a href="1data_analyses.ipynb">
@@ -48,7 +50,7 @@ Recomendado para aqueles que não desejam instalar o projeto no próprio sistema
   </a>
 </p>
 
-- Observação: Certifique se a opção "Preview" esteja habilitada para um melhor aproveitamento do documento.
+- Observação: Certifique se a opção "Preview" esteja habilitada.
   
 <img src="images/1guidelines.png" alt=""></img> 
 <br>
@@ -57,33 +59,28 @@ Recomendado para aqueles que não desejam instalar o projeto no próprio sistema
 Recomendado para aqueles que desejam rodar o projeto no próprio sistema.
 
 - **Avisos**: 
-  - Para esse projeto, foi utilizado um conjunto de bibliotecas que armazenandos na pasta do ambiente virtual se iguala a um tamanho aproximado de **800Mb**, caso deseje ter conhecimento das bibliotecas utlizadas, elas estarão armazenadas no arquivo **requirements.txt**.
-  - A versão do python utilizada no projeto é a 3.12.7
-  - O projeto foi realizado no Windows.
+  - O ambiente virtual ocupa aproximadamente 800Mb.
+  - O projeto foi desenvolvido em Python 3.12.7 no Windows.
 
-
-
-No terminal, digite esse comando para clonar o repositório:
+Clone o repositório:
 
 ```bash 
 git clone https://github.com/luccasena/Machine-Learning-Binary-Classification.git
 ```
 
-No diretório do projeto, abra o terminal e digite esse comando para a criação do ambiente virtual:
-- **Observação: Esse comando só pode ser executado se o diretório do projeto estiver aberto na sua IDE.**
+Crie um ambiente virtual:
 
 ```bash 
 py -m venv venv
 ```
 
-Ainda no terminal, digite esse comando para a ativação do ambiente virtual:
+Ative o ambiente virtual:
 
 ```bash 
 venv/Scripts/activate
 ```
 
-No terminal, digite esse comando para a instalação de todas as dependências do projeto:
-
+Instale as dependências:
 
 ```bash 
 pip install -r requirements.txt
