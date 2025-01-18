@@ -1,6 +1,13 @@
 # Income Prediction 💵 - Dataset Census 
 
-Este projeto desenvolve um algoritmo de Machine Learning para classificar registros de renda em duas categorias: superior a U$50.000 e menor ou igual a U$50.000 anuais. A base de dados foi encontrada na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994, contendo **32561 registros** com **14 atributos previsores** e **1 classe**.
+Este projeto desenvolve um algoritmo de Machine Learning para classificar registros de renda em duas categorias: superior a U$50.000 e menor ou igual a U$50.000 anuais. A base de dados foi encontrada na *UCI Machine Learning Repository* e ela foi originada por *Barry Becker* em 1994, contendo **32561 registros** com **14 atributos previsores** e **1 classe**. Segue abaixo o relatório do projeto: 
+
+<p align="center">
+  <a href="Relatório do Projeto de Machine Learning.pdf">
+    Relatório
+  </a>
+</p>
+
 
 ## Etapas do Projeto
 
